@@ -1,0 +1,18 @@
+:root{--bg:#f3f1ec;--ink:#1d2433;--mut:#5d6677;--line:#cfd3db;--acc:#0b6e69;--hot:#b3261e;--card:#fff;font-family:"IBM Plex Sans",system-ui,sans-serif}
+@media(prefers-color-scheme:dark){:root{--bg:#141922;--ink:#e6e9ef;--mut:#9aa3b2;--line:#2c3443;--acc:#4fd1c5;--hot:#ff8a80;--card:#1b222e}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink)}
+header{padding:20px 24px;border-bottom:1px solid var(--line)}h1{margin:0;font-size:1.5rem}h2{margin:0 0 8px}
+.pipe{color:var(--mut);font-size:.85rem;margin-top:4px}
+nav{display:flex;gap:4px;padding:0 24px;border-bottom:1px solid var(--line);flex-wrap:wrap}
+nav button{background:none;border:0;border-bottom:3px solid transparent;padding:12px 14px;color:var(--mut);cursor:pointer;font:inherit}
+nav button[aria-selected=true]{color:var(--ink);border-color:var(--acc);font-weight:600}
+button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+main{max-width:1000px;margin:0 auto;padding:24px}
+.row{display:flex;gap:16px;flex-wrap:wrap;align-items:end;margin:12px 0}
+label{display:flex;flex-direction:column;font-size:.8rem;color:var(--mut);gap:4px}
+input,select,textarea,button{font:inherit;color:inherit}input,select,textarea{background:var(--card);border:1px solid var(--line);padding:6px 8px;border-radius:4px}
+textarea{width:100%;min-height:70px}button.p{background:var(--acc);color:var(--bg);border:0;padding:8px 14px;border-radius:4px;cursor:pointer}
+.stats{display:flex;gap:24px;flex-wrap:wrap;margin:12px 0}.stats b{display:block;font-size:1.3rem}.stats span{font-size:.75rem;color:var(--mut)}
+table{border-collapse:collapse;width:100%;font-family:"IBM Plex Mono",monospace;font-size:.85rem}th,td{border-bottom:1px solid var(--line);padding:4px 8px;text-align:left}
+.byte{display:inline-flex;gap:6px}.hi{color:var(--acc)}canvas{max-width:100%;border:1px solid var(--line);background:var(--card)}
+pre{background:var(--card);border:1px solid var(--line);padding:12px;overflow:auto;font-size:.8rem}.warn{color:var(--hot)}

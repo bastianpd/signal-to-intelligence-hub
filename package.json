@@ -1,0 +1,10 @@
+{
+  "name": "signal-to-intelligence-hub",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": ["apps/*"],
+  "scripts": {
+    "dev": "npm -w apps/web-platform run dev",
+    "build": "npm -w apps/web-platform run build"
+  }
+}

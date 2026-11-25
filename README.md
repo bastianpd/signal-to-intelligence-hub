@@ -29,7 +29,7 @@ Requires Node.js 18 or newer.
 1. Upload the **contents** of this folder to the repository root, so `package.json` and `apps/` are visible on the repository's front page.
 2. **UPDATE (one time):** Settings → Pages → Build and deployment → Source: **GitHub Actions**.
 3. Open the **Actions** tab and wait for "Deploy to GitHub Pages" to turn green.
-4. The site is at `https://<user>.github.io/<repository>/`.
+4. The site is at `https://bastianpd.github.io/signal-to-intelligence-hub/`.
 
 The repository must be public on a free account.
 

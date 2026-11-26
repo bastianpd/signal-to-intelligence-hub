@@ -56,3 +56,5 @@ Wire the circuit from `edge-hardware/schematics-bom/README.md`, open `sensor_to_
 - The browser cannot always read Apps Script's reply because of CORS; the email is still sent.
 - Image uploads are downscaled to 128 px on the long side; the paint grid is 16×16.
 - No automated tests yet.
+
+#LINK TO OPEN:  https://bastianpd.github.io/signal-to-intelligence-hub/
